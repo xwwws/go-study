@@ -7,7 +7,7 @@ import (
 
 // 导包方式-匿名  _ "go-study/src/gocode/study_go_02/lib1"
 // 导包方式-别名  myLib1 "go-study/src/gocode/study_go_02/lib1"
-// 导包方式-全量导入  * "go-study/src/gocode/study_go_02/lib1"
+// 导包方式-全量导入  . "go-study/src/gocode/study_go_02/lib1"
 
 // 主包的init
 func init()  {
