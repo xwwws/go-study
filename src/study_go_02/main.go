@@ -1,8 +1,8 @@
 package main
 import (
   "fmt"
-  "go-study/src/gocode/study_go_02/lib1"
-  "go-study/src/gocode/study_go_02/lib2"
+  "go-study/src/study_go_02/lib1"
+  "go-study/src/study_go_02/lib2"
 )
 
 // 导包方式-匿名  _ "go-study/src/gocode/study_go_02/lib1"
