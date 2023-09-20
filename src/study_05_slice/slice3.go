@@ -5,7 +5,11 @@ import (
 )
 func main()  {
   // make(type,len(长度),cap(容量))
-  // 每次给silce append的时候 在slice的最后追加一个元素, 如果容量(cap)不够  继续向后追加 cap个容量 以此类推
+  //
+  /*
+    append(to, 0) 向to最后追加 一个元素  元素内容为0
+    每次给silce append的时候 在slice的最后追加一个元素, 如果容量(cap)不够  继续向后追加 cap个容量 以此类推
+  */
   var numbers = make([]int, 3, 5)
 
   fmt.Printf("len = %d, cap = %d slice = %v\n", len(numbers),cap(numbers), numbers)
