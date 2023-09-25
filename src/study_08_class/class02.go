@@ -66,6 +66,6 @@ func main()  {
   cat := Cat{"red"}
   dog := Dog{"yellow"}
   showAnimal(&cat)
-  showAnimal(&dog)
+  showAnimal(&cat)
 
 }

@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main()  {
-  fmt.Println("123")
+  string1 := "123"
+  fmt.Println(string1)
 }
