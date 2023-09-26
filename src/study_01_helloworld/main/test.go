@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main()  {
-  string1 := "123"
+  string1 := "1234"
   fmt.Println(string1)
 }
